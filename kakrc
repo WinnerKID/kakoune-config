@@ -11,3 +11,5 @@ hook global InsertCompletionHide .* %{
     unmap window insert <tab> <c-n>
     unmap window insert <s-tab> <c-p>
 }
+
+map global user y '<a-|>xclip -i -selection clipboard<ret>'
